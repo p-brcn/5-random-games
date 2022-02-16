@@ -1,0 +1,21 @@
+{
+  "name": "cool-five-random-games",
+  "version": "1.0.0",
+  "description": "Picks 5 random games from the GOG database!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "gog",
+    "games"
+  ],
+  "author": "Kristian Åkerblom",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ugog-product": "^0.0.3"
+  }
+}
